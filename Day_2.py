@@ -83,26 +83,26 @@
 # cv2.destroyAllWindows()
 # (7): .................
 
-import cv2
-img = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\Class.webp" , 0)
-# Select pixel
-x = 100
-y = 100
-print("Pixel value:", img[y, x])
-# 4-neighbors
-print("\n4-Neighbors:")
-print("Top:", img[y-1, x])
-print("Bottom:", img[y+1, x])
-print("Left:", img[y, x-1])
-print("Right:", img[y, x+1])
-# Diagonal neighbors
-print("\nDiagonal Neighbors:")
-print("Top-Left:", img[y-1, x-1])
-print("Top-Right:", img[y-1, x+1])
-print("Bottom-Left:", img[y+1, x-1])
-print("Bottom-Right:", img[y+1, x+1])
-# 8-neighbors
-print("\n8-Neighbors:")
-print(
-    img[y-1:y+2, x-1:x+2]
-)
+# import cv2
+# img = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\Class.webp" , 0)
+# # Select pixel
+# x = 100
+# y = 100
+# print("Pixel value:", img[y, x])
+# # 4-neighbors
+# print("\n4-Neighbors:")
+# print("Top:", img[y-1, x])
+# print("Bottom:", img[y+1, x])
+# print("Left:", img[y, x-1])
+# print("Right:", img[y, x+1])
+# # Diagonal neighbors
+# print("\nDiagonal Neighbors:")
+# print("Top-Left:", img[y-1, x-1])
+# print("Top-Right:", img[y-1, x+1])
+# print("Bottom-Left:", img[y+1, x-1])
+# print("Bottom-Right:", img[y+1, x+1])
+# # 8-neighbors
+# print("\n8-Neighbors:")
+# print(
+#     img[y-1:y+2, x-1:x+2]
+# )
