@@ -37,12 +37,12 @@
 # cv2.imshow("Intensity Slicing : ", output)
 # cv2.waitKey(0)
 
-import cv2
-import numpy as np
-img = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\img.jpg")
-output = np.zeros_like(img)
-condtion = ((img >= 30 )& (img <=80) | (img >= 100) & (img <= 200)) 
-output[condtion] = 255
-cv2.imshow("Original Image : ", img)
-cv2.imshow("Intensity Slicing : ", output)
-cv2.waitKey(0)
+# import cv2
+# import numpy as np
+# img = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\img.jpg")
+# output = np.zeros_like(img)
+# condtion = ((img >= 30 )& (img <=80) | (img >= 100) & (img <= 200)) 
+# output[condtion] = 255
+# cv2.imshow("Original Image : ", img)
+# cv2.imshow("Intensity Slicing : ", output)
+# cv2.waitKey(0)
