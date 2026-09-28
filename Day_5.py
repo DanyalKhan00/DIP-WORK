@@ -45,4 +45,8 @@
 # output[condtion] = 255
 # cv2.imshow("Original Image : ", img)
 # cv2.imshow("Intensity Slicing : ", output)
+<<<<<<< HEAD
 # cv2.waitKey(0)
+=======
+# cv2.waitKey(0)
+>>>>>>> 647aa750007e750acea2c198786d894a87f9c559
