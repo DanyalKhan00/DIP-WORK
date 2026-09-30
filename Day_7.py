@@ -27,14 +27,18 @@
 # cv2.destroyAllWindows()
 
 
-import cv2
+# import cv2
+# image = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\images.jfif")
+# output = cv2.blur(image, (3, 3))
+# cv2.imshow("Original", image)
+# cv2.imshow("Averaged", output)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
 
-image = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\images.jfif")
-
-output = cv2.blur(image, (3, 3))
-
-cv2.imshow("Original", image)
-cv2.imshow("Averaged", output)
-
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# import cv2
+# image = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\img.jpg",0)
+# output = cv2.GaussianBlur(image, (5, 5), 0)
+# cv2.imshow("Original", image)
+# cv2.imshow("Gaussian Filter", output)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
