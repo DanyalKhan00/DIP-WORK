@@ -24,4 +24,17 @@
 # cv2.destroyAllWindows()
 
 # All About Minimum Filtering 
-# 
+# import cv2
+# import numpy as np
+
+# img = cv2.imread("C:\\Users\\Officer Danyal\\Pictures\\images.jfif")
+
+# kernel = np.ones((5, 5), np.uint8)
+
+# result = cv2.erode(img, kernel)
+
+# cv2.imshow("Original", img)
+# cv2.imshow("Minimum Filter", result)
+
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
